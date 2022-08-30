@@ -1,2 +1,2 @@
-# Code-102-Main
+# Hello World
 My personal website for 102
