@@ -1,0 +1,63 @@
+/*selector {property: value;}*/
+
+body {background-color: lightblue;} 
+
+body {
+background-color: (32, 43, 128);
+margin: 100px; 
+padding: 10px; 
+border: 10px double rgba(211, 211, 211, 0.815);
+font-family: 'Courier New', Courier, monospace;
+
+
+
+
+
+
+
+} 
+
+header{ background-color: lightgray;
+    background-size: auto;
+
+}
+
+
+#killua{width: 200px;
+    align: margin-right;
+    margin-bottom: 20px;
+} 
+
+
+/* #section1{ */
+
+#kaneki{width: 300px;}
+
+
+
+
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 40px;
+    color: ;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
+
+{} 
+
+h1{font-size: 40px;
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+h2 {
+    font-size: 13px;
+    text-align: center;
+    color:rgb(0, 132, 255) ;
+}
+
+p{color: rgb(14, 29, 116);}
+
