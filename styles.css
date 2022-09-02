@@ -24,14 +24,18 @@ header{ background-color: lightgray;
 
 
 #killua{width: 200px;
-    align: margin-right;
+    margin-left: 800px;
     margin-bottom: 20px;
 } 
 
 
 /* #section1{ */
 
-#kaneki{width: 300px;}
+#kaneki{width: 450px;
+      float: left
+      ;  
+}
+
 
 
 
@@ -59,9 +63,19 @@ h2 {
     color:rgb(0, 132, 255) ;
 }
 
-p{color: rgb(14, 29, 116);}
+p{color: rgb(14, 29, 116);
+font-size: 25px;}
 
 h2:hover span {display: none;}
 
 h2:hover::before {content : "My opinions are absolute though..."}
+
+  #section1{float: right;
+   text-align: right;
+   margin-right: 50px;
+   margin-left: 600px;
+   margin-top: 20px;
+  }
+  
+  footer{ color: #23f;}
 

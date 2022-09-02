@@ -33,3 +33,9 @@ let pet = 'cat';
 
 document.write(message);
  
+function greet(name) {
+    return "hello, " + name;
+}
+greet("Grace Hopper");
+
+
