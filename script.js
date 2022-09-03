@@ -29,13 +29,8 @@ else if(usersName == 'Jill'){
 else { message = 'Welcome to my site!';
 }
 
-let pet = 'cat';
 
-document.write(message);
  
-function greet(name) {
-    return "hello, " + name;
-}
-greet("Grace Hopper");
+
 
 
