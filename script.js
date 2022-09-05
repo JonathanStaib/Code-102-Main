@@ -5,8 +5,8 @@ console.log('Hello World');
 let x = 10;
 console.log(x);
 
-const myName = 'Jonathan';
-console.log(myName);
+// const myName = 'Jonathan';
+// console.log(myName);
 
 // function functionname(parametes){code to execute}
 
@@ -30,10 +30,10 @@ function customMessage(customName){
   else if(customName == 'Kassie'){
     message = 'Hello Teach';
  }
-  else if(CustomName == 'Michael'){
+  else if(customName == 'Michael'){
     message = "Wassup Brotha";
  }
-  else if(CustomName == 'Jill'){
+  else if(customName == 'Jill'){
     message = "Welcome My Love";
  }    
 
@@ -43,7 +43,7 @@ function customMessage(customName){
  document.write(message);
 }
 
-customMessage(customName);
+customMessage();
 
 // function addTwoNumbers(num1,num2){
 //     return num1 + num2
