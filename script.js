@@ -2,38 +2,36 @@
 
 console.log('Hello World');
 
-let x = 10;
-console.log(x);
+// let x = 10;
+// console.log(x);
 
 // const myName = 'Jonathan';
 // console.log(myName);
 
 // function functionname(parametes){code to execute}
-
+let usersName = prompt('What is your name');
 function greetUser(){
- let usersName = prompt('What is your name');
+
  document.write(' Hello ' + usersName);
   return usersName;
 }
 
-greetUser();
-
-function customMessage(customName){
+function customMessage(){
  let message; 
  // console.log(usersName);
  // message = 'Hi, ' + usersName + ' ! ' + ' Welcome to my Page . ' ;
 
 
-  if (customName == 'Jonathan'){
+  if (usersName === 'Jonathan'){
     message = 'Welcome Shisho!';
  }
-  else if(customName == 'Kassie'){
+  else if(usersName === 'Kassie'){
     message = 'Hello Teach';
  }
-  else if(customName == 'Michael'){
+  else if(usersName === 'Michael'){
     message = "Wassup Brotha";
  }
-  else if(customName == 'Jill'){
+  else if(usersName=== 'Jill'){
     message = "Welcome My Love";
  }    
 
@@ -43,7 +41,19 @@ function customMessage(customName){
  document.write(message);
 }
 
-customMessage();
+let answer = prompt('Whats my favorite color')
+function colorAnswer(){
+    let message;
+
+    if (answer == 'Purple'){
+      message = 'Yes Correct!';
+    }
+    else { message = 'Incorrect that color is nice as well though unless its yellow';
+}
+ document.write(message);
+}
+// colorAnswer();
+// customMessage();
 
 // function addTwoNumbers(num1,num2){
 //     return num1 + num2
