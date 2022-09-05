@@ -16,9 +16,9 @@ function greetUser(){
   return usersName;
 }
 
-// greetUser();
+greetUser();
 
-function customMessage(customName);{
+function customMessage(customName){
  let message; 
  // console.log(usersName);
  // message = 'Hi, ' + usersName + ' ! ' + ' Welcome to my Page . ' ;
